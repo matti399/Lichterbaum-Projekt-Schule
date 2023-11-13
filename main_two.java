@@ -18,7 +18,7 @@ public class main_two {
     private static void drawChristmasTree(int height) {
         //kerzen Oben
         for (int i = 0; i < 1; i++) {
-            for (int j = 0; j < height - 1; j++) {
+            for (int j = 0; j < height; j++) {
                 System.out.print(" ");
             }
             System.out.println("ii");
@@ -39,9 +39,15 @@ public class main_two {
             System.out.println("\\i");
         }
 
+        for (int i = 0; i < 1; i++) {
+            for (int j = 0; j < height; j++) {
+                System.out.print('-');
+            }
+        }
+
         // Stamm des Baums
         for (int i = 0; i < 1; i++) {
-            for (int j = 0; j < height - 1; j++) {
+            for (int j = 0; j < height; j++) {
                 System.out.print(" ");
             }
             System.out.println("||");
