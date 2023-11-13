@@ -22,21 +22,21 @@ public class main_two {
                 System.out.print(" ");
             }
             // Backslash für die linke Umrandung
-            System.out.print("\\");
+            System.out.print("i/");
             // Sterne für den Baum
             for (int k = 0; k < 2 * i + 1; k++) {
                 System.out.print("*");
             }
             // Forwardslash für die rechte Umrandung
-            System.out.println("/");
+            System.out.println("\\i");
         }
 
         // Stamm des Baums
-        for (int i = 0; i < 2; i++) {
+        for (int i = 0; i < 1; i++) {
             for (int j = 0; j < height - 1; j++) {
                 System.out.print(" ");
             }
-            System.out.println("|");
+            System.out.println("||");
         }
     }
 }
