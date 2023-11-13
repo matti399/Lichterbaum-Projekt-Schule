@@ -5,7 +5,7 @@ public class main_two {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Geben Sie die Tag (0-24):");
+        System.out.println("Geben Sie den Tag ein (0-24):");
         int days = scanner.nextInt();
 
         if (days >= 0 && days <= 24) {
