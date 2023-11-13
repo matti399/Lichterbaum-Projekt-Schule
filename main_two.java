@@ -5,13 +5,13 @@ public class main_two {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Geben Sie die Höhe des Weihnachtsbaums (0-24) ein:");
+        System.out.println("Geben Sie die Tag (0-24):");
         int height = scanner.nextInt();
 
         if (height >= 0 && height <= 24) {
             drawChristmasTree(height);
         } else {
-            System.out.println("Ungültige Eingabe. Die Höhe muss zwischen 0 und 24 liegen.");
+            System.out.println("Ungültige Eingabe. Der Tag muss zwischen 0 und 24 liegen.");
         }
     }
 
