@@ -32,7 +32,7 @@ public class baum {
             // Forwardslash für die linke Umrandung
             System.out.print("i/");
             // Sterne für den Baum
-            for (int k = 0; k < 2 * i + 1; k++) {
+            for (int k = 0; k < 2 * i; k++) {
                 System.out.print("*");
             }
             // Backslash für die rechte Umrandung
