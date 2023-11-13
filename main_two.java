@@ -40,9 +40,10 @@ public class main_two {
         }
 
         for (int i = 0; i < 1; i++) {
-            for (int j = 0; j < height; j++) {
+            for (int j = 0; j < height * 2; j++) {
                 System.out.print('-');
             }
+            System.out.println("-");
         }
 
         // Stamm des Baums
