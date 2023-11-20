@@ -4,15 +4,19 @@ public class baum {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        boolean stopper = false;
 
-        System.out.println("Geben Sie den Tag ein (0-24):");
-        int days = scanner.nextInt();
+        do {
+            System.out.println("Geben Sie den Tag ein (0-24):");
+            int days = scanner.nextInt();
 
-        if (days >= 0 && days <= 24) {
-            drawChristmasTree(days);
-        } else {
-            System.out.println("Ungültige Eingabe. Der Tag muss zwischen 0 und 24 liegen.");
-        }
+            if (days >= 0 && days <= 24) {
+                drawChristmasTree(days);
+                stopper = true;
+            } else {
+                System.out.println("Ungültige Eingabe. Der Tag muss zwischen 0 und 24 liegen.");
+            }
+        } while (stopper == false);
     }
 
     private static void drawChristmasTree(int days) {
