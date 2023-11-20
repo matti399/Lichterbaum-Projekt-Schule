@@ -16,7 +16,7 @@ public class baum {
             } else {
                 System.out.println("Ungültige Eingabe. Der Tag muss zwischen 0 und 24 liegen.");
             }
-        } while (stopper == false);
+        } while (!stopper);
     }
 
     private static void drawChristmasTree(int days) {
