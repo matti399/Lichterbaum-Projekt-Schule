@@ -5,10 +5,11 @@ public class baum {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         boolean stopper = false;
+        int days;
 
         do {
             System.out.println("Geben Sie den Tag ein (0-24):");
-            int days = scanner.nextInt();
+            days = scanner.nextInt();
 
             if (days >= 0 && days <= 24) {
                 drawChristmasTree(days);
